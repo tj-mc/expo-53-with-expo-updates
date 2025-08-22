@@ -7,8 +7,9 @@
     "icon": "./assets/images/icon.png",
     "scheme": "expofiftythreewithexpoupdates",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
+      "bundleIdentifier": "com.testapp",
       "supportsTablet": true
     },
     "android": {
@@ -16,7 +17,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.testapp"
     },
     "web": {
       "bundler": "metro",
